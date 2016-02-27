@@ -106,127 +106,129 @@ class Header extends Component {
                           </a>
                         </li>
                         <li>
-                            <a href="javascript:;">
-                                <span className="time">2 days</span>
-                                <span className="details">
-                                    <span className="label label-sm label-icon label-danger">
-                                        <i className="fa fa-bolt"></i>
-                                    </span> Database overloaded 68%. </span>
+                          <a href="javascript:;">
+                            <span className="time">2 days</span>
+                            <span className="details">
+                              <span className="label label-sm label-icon label-danger">
+                                <i className="fa fa-bolt"></i>
+                              </span> Database overloaded 68%.
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:;">
+                            <span className="time">3 days</span>
+                            <span className="details">
+                              <span className="label label-sm label-icon label-danger">
+                                <i className="fa fa-bolt"></i>
+                              </span> A user IP blocked.
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:;">
+                            <span className="time">4 days</span>
+                            <span className="details">
+                              <span className="label label-sm label-icon label-warning">
+                                  <i className="fa fa-bell-o"></i>
+                              </span> Storage Server #4 not responding dfdfdfd. </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:;">
+                            <span className="time">5 days</span>
+                            <span className="details">
+                              <span className="label label-sm label-icon label-info">
+                                  <i className="fa fa-bullhorn"></i>
+                              </span> System Error. </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="javascript:;">
+                            <span className="time">9 days</span>
+                            <span className="details">
+                              <span className="label label-sm label-icon label-danger">
+                                <i className="fa fa-bolt"></i>
+                              </span> Storage server failed. </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="separator hide"> </li>
+                <li className="dropdown dropdown-extended dropdown-inbox dropdown-dark" id="header_inbox_bar">
+                  <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                    <i className="icon-envelope-open"></i>
+                    <span className="badge badge-danger"> 4 </span>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li className="external">
+                      <h3>You have
+                        <span className="bold">7 New</span> Messages</h3>
+                      <a href="app_inbox.html">view all</a>
+                    </li>
+                    <li>
+                      <ul className="dropdown-menu-list scroller" style={{height: 275}} data-handle-color="#637283">
+                        <li>
+                          <a href="#">
+                            <span className="photo">
+                              <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
+                            <span className="subject">
+                              <span className="from"> Lisa Wong </span>
+                              <span className="time">Just Now </span>
+                            </span>
+                            <span className="message"> Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span className="photo">
+                                <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
+                            <span className="subject">
+                                <span className="from"> Richard Doe </span>
+                                <span className="time">16 mins </span>
+                            </span>
+                            <span className="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <span className="photo">
+                                <img src="../assets/layouts/layout3/img/avatar1.jpg" className="img-circle" alt="" /> </span>
+                            <span className="subject">
+                                <span className="from"> Bob Nilson </span>
+                                <span className="time">2 hrs </span>
+                            </span>
+                            <span className="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span className="photo">
+                                    <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
+                                <span className="subject">
+                                    <span className="from"> Lisa Wong </span>
+                                    <span className="time">40 mins </span>
+                                </span>
+                                <span className="message"> Vivamus sed auctor 40% nibh congue nibh... </span>
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:;">
-                                <span className="time">3 days</span>
-                                <span className="details">
-                                    <span className="label label-sm label-icon label-danger">
-                                        <i className="fa fa-bolt"></i>
-                                    </span> A user IP blocked. </span>
+                            <a href="#">
+                                <span className="photo">
+                                    <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
+                                <span className="subject">
+                                    <span className="from"> Richard Doe </span>
+                                    <span className="time">46 mins </span>
+                                </span>
+                                <span className="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
                             </a>
                         </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <span className="time">4 days</span>
-                                                    <span className="details">
-                                                        <span className="label label-sm label-icon label-warning">
-                                                            <i className="fa fa-bell-o"></i>
-                                                        </span> Storage Server #4 not responding dfdfdfd. </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <span className="time">5 days</span>
-                                                    <span className="details">
-                                                        <span className="label label-sm label-icon label-info">
-                                                            <i className="fa fa-bullhorn"></i>
-                                                        </span> System Error. </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="javascript:;">
-                                                    <span className="time">9 days</span>
-                                                    <span className="details">
-                                                        <span className="label label-sm label-icon label-danger">
-                                                            <i className="fa fa-bolt"></i>
-                                                        </span> Storage server failed. </span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="separator hide"> </li>
-                            <li className="dropdown dropdown-extended dropdown-inbox dropdown-dark" id="header_inbox_bar">
-                                <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                    <i className="icon-envelope-open"></i>
-                                    <span className="badge badge-danger"> 4 </span>
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li className="external">
-                                        <h3>You have
-                                            <span className="bold">7 New</span> Messages</h3>
-                                        <a href="app_inbox.html">view all</a>
-                                    </li>
-                                    <li>
-                                        <ul className="dropdown-menu-list scroller" style={{height: 275}} data-handle-color="#637283">
-                                            <li>
-                                                <a href="#">
-                                                    <span className="photo">
-                                                        <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
-                                                    <span className="subject">
-                                                        <span className="from"> Lisa Wong </span>
-                                                        <span className="time">Just Now </span>
-                                                    </span>
-                                                    <span className="message"> Vivamus sed auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span className="photo">
-                                                        <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
-                                                    <span className="subject">
-                                                        <span className="from"> Richard Doe </span>
-                                                        <span className="time">16 mins </span>
-                                                    </span>
-                                                    <span className="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span className="photo">
-                                                        <img src="../assets/layouts/layout3/img/avatar1.jpg" className="img-circle" alt="" /> </span>
-                                                    <span className="subject">
-                                                        <span className="from"> Bob Nilson </span>
-                                                        <span className="time">2 hrs </span>
-                                                    </span>
-                                                    <span className="message"> Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span className="photo">
-                                                        <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
-                                                    <span className="subject">
-                                                        <span className="from"> Lisa Wong </span>
-                                                        <span className="time">40 mins </span>
-                                                    </span>
-                                                    <span className="message"> Vivamus sed auctor 40% nibh congue nibh... </span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span className="photo">
-                                                        <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
-                                                    <span className="subject">
-                                                        <span className="from"> Richard Doe </span>
-                                                        <span className="time">46 mins </span>
-                                                    </span>
-                                                    <span className="message"> Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
                             <li className="separator hide"> </li>
                             <li className="dropdown dropdown-extended dropdown-tasks dropdown-dark" id="header_task_bar">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
