@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   Grid, Row, Col, Form, FormGroup, Input, Button
 } from 'react-bootstrap';
+import Header from "./Header.js"
 
 class App extends Component {
   constructor(props){
@@ -9,11 +10,14 @@ class App extends Component {
   }
   render() {
     return (
-      <Grid>
-        <Row>
-          {this.props.children}
-        </Row>
-      </Grid>
+      <div>
+        <Header />
+        <Grid>
+          <Row>
+            {this.props.children}
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }
