@@ -56,7 +56,7 @@
     "node-jsx": "^0.13.3",
     "piping": "^0.3.0",
     "react": "^0.14.0",
-    "react-bootstrap": "^0.27.3",
+    "react-bootstrap": "^0.28.3",
     "react-dom": "^0.14.0",
     "react-router": "^1.0.0"
   }
