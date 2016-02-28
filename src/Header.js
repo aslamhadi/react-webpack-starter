@@ -4,20 +4,20 @@ class Header extends Component {
 
   render() {
     return (
-      <div classNameName="page-header navbar navbar-fixed-top">
-        <div classNameName="page-header-inner ">
-          <div classNameName="page-logo">
+      <div className="page-header navbar navbar-fixed-top">
+        <div className="page-header-inner ">
+          <div className="page-logo">
             <a href="index.html">
-              <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" classNameName="logo-default" />
+              <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" className="logo-default" />
             </a>
-            <div classNameName="menu-toggler sidebar-toggler">
+            <div className="menu-toggler sidebar-toggler">
             </div>
           </div>
-          <a href="javascript:;" classNameName="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
-          <div classNameName="page-actions">
-            <div classNameName="btn-group">
-              <button type="button" classNameName="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                  <span classNameName="hidden-sm hidden-xs">Actions&nbsp;</span>
+          <a href="javascript:;" className="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+          <div className="page-actions">
+            <div className="btn-group">
+              <button type="button" className="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                  <span className="hidden-sm hidden-xs">Actions&nbsp;</span>
                   <i className="fa fa-angle-down"></i>
               </button>
               <ul className="dropdown-menu" role="menu">

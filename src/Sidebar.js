@@ -6,177 +6,283 @@ class Sidebar extends Component {
 
   render() {
     return (
-      <div class="page-sidebar-wrapper">
-        <div class="page-sidebar navbar-collapse collapse">
-          <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-            <li class="nav-item start active open">
-              <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="icon-home"></i>
-                <span class="title">Dashboard</span>
-                <span class="selected"></span>
-                <span class="arrow open"></span>
+      <div className="page-sidebar-wrapper">
+        <div className="page-sidebar navbar-collapse collapse">
+          <ul className="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+            <li className="nav-item start active open">
+              <a href="javascript:;" className="nav-link nav-toggle">
+                <i className="icon-home"></i>
+                <span className="title">Dashboard</span>
+                <span className="selected"></span>
+                <span className="arrow open"></span>
               </a>
-              <ul class="sub-menu">
-                <li class="nav-item start active open">
-                  <a href="index.html" class="nav-link ">
-                    <i class="icon-bar-chart"></i>
-                    <span class="title">Dashboard 1</span>
-                    <span class="selected"></span>
+              <ul className="sub-menu">
+                <li className="nav-item start active open">
+                  <a href="index.html" className="nav-link ">
+                    <i className="icon-bar-chart"></i>
+                    <span className="title">Dashboard 1</span>
+                    <span className="selected"></span>
                   </a>
                 </li>
-                <li class="nav-item start ">
-                  <a href="dashboard_2.html" class="nav-link ">
-                    <i class="icon-bulb"></i>
-                    <span class="title">Dashboard 2</span>
-                    <span class="badge badge-success">1</span>
+                <li className="nav-item start ">
+                  <a href="dashboard_2.html" className="nav-link ">
+                    <i className="icon-bulb"></i>
+                    <span className="title">Dashboard 2</span>
+                    <span className="badge badge-success">1</span>
                   </a>
                 </li>
-                  <li class="nav-item start ">
-                    <a href="dashboard_3.html" class="nav-link ">
-                      <i class="icon-graph"></i>
-                      <span class="title">Dashboard 3</span>
-                      <span class="badge badge-danger">5</span>
+                  <li className="nav-item start ">
+                    <a href="dashboard_3.html" className="nav-link ">
+                      <i className="icon-graph"></i>
+                      <span className="title">Dashboard 3</span>
+                      <span className="badge badge-danger">5</span>
                     </a>
                   </li>
                 </ul>
             </li>
-            <li class="heading">
-              <h3 class="uppercase">Features</h3>
+            <li className="heading">
+              <h3 className="uppercase">Features</h3>
             </li>
-            <li class="nav-item  ">
-              <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="icon-diamond"></i>
-                <span class="title">UI Features</span>
-                <span class="arrow"></span>
+            <li className="nav-item  ">
+              <a href="javascript:;" className="nav-link nav-toggle">
+                <i className="icon-diamond"></i>
+                <span className="title">UI Features</span>
+                <span className="arrow"></span>
               </a>
-              <ul class="sub-menu">
-                <li class="nav-item  ">
-                  <a href="ui_colors.html" class="nav-link ">
-                    <span class="title">Color Library</span>
+              <ul className="sub-menu">
+                <li className="nav-item  ">
+                  <a href="ui_colors.html" className="nav-link ">
+                    <span className="title">Color Library</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_general.html" class="nav-link ">
-                    <span class="title">General Components</span>
+                <li className="nav-item  ">
+                  <a href="ui_general.html" className="nav-link ">
+                    <span className="title">General Components</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_buttons.html" class="nav-link ">
-                    <span class="title">Buttons</span>
+                <li className="nav-item  ">
+                  <a href="ui_buttons.html" className="nav-link ">
+                    <span className="title">Buttons</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_confirmations.html" class="nav-link ">
-                    <span class="title">Popover Confirmations</span>
+                <li className="nav-item  ">
+                  <a href="ui_confirmations.html" className="nav-link ">
+                    <span className="title">Popover Confirmations</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_icons.html" class="nav-link ">
-                    <span class="title">Font Icons</span>
+                <li className="nav-item  ">
+                  <a href="ui_icons.html" className="nav-link ">
+                    <span className="title">Font Icons</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_socicons.html" class="nav-link ">
-                    <span class="title">Social Icons</span>
+                <li className="nav-item  ">
+                  <a href="ui_socicons.html" className="nav-link ">
+                    <span className="title">Social Icons</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_typography.html" class="nav-link ">
-                    <span class="title">Typography</span>
+                <li className="nav-item  ">
+                  <a href="ui_typography.html" className="nav-link ">
+                    <span className="title">Typography</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_tabs_accordions_navs.html" class="nav-link ">
-                    <span class="title">Tabs, Accordions & Navs</span>
+                <li className="nav-item  ">
+                  <a href="ui_tabs_accordions_navs.html" className="nav-link ">
+                    <span className="title">Tabs, Accordions & Navs</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_timeline.html" class="nav-link ">
-                    <span class="title">Timeline</span>
+                <li className="nav-item  ">
+                  <a href="ui_timeline.html" className="nav-link ">
+                    <span className="title">Timeline</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_tree.html" class="nav-link ">
-                    <span class="title">Tree View</span>
+                <li className="nav-item  ">
+                  <a href="ui_tree.html" className="nav-link ">
+                    <span className="title">Tree View</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="javascript:;" class="nav-link nav-toggle">
-                    <span class="title">Page Progress Bar</span>
-                    <span class="arrow"></span>
+                <li className="nav-item  ">
+                  <a href="javascript:;" className="nav-link nav-toggle">
+                    <span className="title">Page Progress Bar</span>
+                    <span className="arrow"></span>
                   </a>
-                  <ul class="sub-menu">
-                    <li class="nav-item ">
-                      <a href="ui_page_progress_style_1.html" class="nav-link "> Flash </a>
+                  <ul className="sub-menu">
+                    <li className="nav-item ">
+                      <a href="ui_page_progress_style_1.html" className="nav-link "> Flash </a>
                     </li>
-                    <li class="nav-item ">
-                      <a href="ui_page_progress_style_2.html" class="nav-link "> Big Counter </a>
+                    <li className="nav-item ">
+                      <a href="ui_page_progress_style_2.html" className="nav-link "> Big Counter </a>
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_blockui.html" class="nav-link ">
-                    <span class="title">Block UI</span>
+                <li className="nav-item  ">
+                  <a href="ui_blockui.html" className="nav-link ">
+                    <span className="title">Block UI</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_bootstrap_growl.html" class="nav-link ">
-                    <span class="title">Bootstrap Growl Notifications</span>
+                <li className="nav-item  ">
+                  <a href="ui_bootstrap_growl.html" className="nav-link ">
+                    <span className="title">Bootstrap Growl Notifications</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_notific8.html" class="nav-link ">
-                    <span class="title">Notific8 Notifications</span>
+                <li className="nav-item  ">
+                  <a href="ui_notific8.html" className="nav-link ">
+                    <span className="title">Notific8 Notifications</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_toastr.html" class="nav-link ">
-                    <span class="title">Toastr Notifications</span>
+                <li className="nav-item  ">
+                  <a href="ui_toastr.html" className="nav-link ">
+                    <span className="title">Toastr Notifications</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_bootbox.html" class="nav-link ">
-                    <span class="title">Bootbox Dialogs</span>
+                <li className="nav-item  ">
+                  <a href="ui_bootbox.html" className="nav-link ">
+                    <span className="title">Bootbox Dialogs</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_alerts_api.html" class="nav-link ">
-                    <span class="title">Metronic Alerts API</span>
+                <li className="nav-item  ">
+                  <a href="ui_alerts_api.html" className="nav-link ">
+                    <span className="title">Metronic Alerts API</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_session_timeout.html" class="nav-link ">
-                    <span class="title">Session Timeout</span>
+                <li className="nav-item  ">
+                  <a href="ui_session_timeout.html" className="nav-link ">
+                    <span className="title">Session Timeout</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_idle_timeout.html" class="nav-link ">
-                    <span class="title">User Idle Timeout</span>
+                <li className="nav-item  ">
+                  <a href="ui_idle_timeout.html" className="nav-link ">
+                    <span className="title">User Idle Timeout</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_modals.html" class="nav-link ">
-                    <span class="title">Modals</span>
+                <li className="nav-item  ">
+                  <a href="ui_modals.html" className="nav-link ">
+                    <span className="title">Modals</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_extended_modals.html" class="nav-link ">
-                    <span class="title">Extended Modals</span>
+                <li className="nav-item  ">
+                  <a href="ui_extended_modals.html" className="nav-link ">
+                    <span className="title">Extended Modals</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_tiles.html" class="nav-link ">
-                    <span class="title">Tiles</span>
+                <li className="nav-item  ">
+                  <a href="ui_tiles.html" className="nav-link ">
+                    <span className="title">Tiles</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_datepaginator.html" class="nav-link ">
-                    <span class="title">Date Paginator</span>
+                <li className="nav-item  ">
+                  <a href="ui_datepaginator.html" className="nav-link ">
+                    <span className="title">Date Paginator</span>
                   </a>
                 </li>
-                <li class="nav-item  ">
-                  <a href="ui_nestable.html" class="nav-link ">
-                    <span class="title">Nestable List</span>
+                <li className="nav-item  ">
+                  <a href="ui_nestable.html" className="nav-link ">
+                    <span className="title">Nestable List</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item  ">
+              <a href="javascript:;" className="nav-link nav-toggle">
+                <i className="icon-puzzle"></i>
+                <span className="title">Components</span>
+                <span className="arrow"></span>
+              </a>
+              <ul className="sub-menu">
+                <li className="nav-item  ">
+                  <a href="components_date_time_pickers.html" className="nav-link ">
+                    <span className="title">Date & Time Pickers</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_color_pickers.html" className="nav-link ">
+                    <span className="title">Color Pickers</span>
+                    <span className="badge badge-danger">2</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_select2.html" className="nav-link ">
+                    <span className="title">Select2 Dropdowns</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_select.html" className="nav-link ">
+                    <span className="title">Bootstrap Select</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_multi_select.html" className="nav-link ">
+                    <span className="title">Multi Select</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_select_splitter.html" className="nav-link ">
+                    <span className="title">Select Splitter</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_typeahead.html" className="nav-link ">
+                    <span className="title">Typeahead Autocomplete</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_tagsinput.html" className="nav-link ">
+                    <span className="title">Bootstrap Tagsinput</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_switch.html" className="nav-link ">
+                    <span className="title">Bootstrap Switch</span>
+                    <span className="badge badge-success">6</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_maxlength.html" className="nav-link ">
+                    <span className="title">Bootstrap Maxlength</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_fileinput.html" className="nav-link ">
+                    <span className="title">Bootstrap File Input</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_bootstrap_touchspin.html" className="nav-link ">
+                    <span className="title">Bootstrap Touchspin</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_form_tools.html" className="nav-link ">
+                    <span className="title">Form Widgets & Tools</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_context_menu.html" className="nav-link ">
+                    <span className="title">Context Menu</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_editors.html" className="nav-link ">
+                    <span className="title">Markdown & WYSIWYG Editors</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_code_editors.html" className="nav-link ">
+                    <span className="title">Code Editors</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_ion_sliders.html" className="nav-link ">
+                    <span className="title">Ion Range Sliders</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_noui_sliders.html" className="nav-link ">
+                    <span className="title">NoUI Range Sliders</span>
+                  </a>
+                </li>
+                <li className="nav-item  ">
+                  <a href="components_knob_dials.html" className="nav-link ">
+                    <span className="title">Knob Circle Dials</span>
                   </a>
                 </li>
               </ul>
