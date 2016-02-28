@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import {
   Grid, Row, Col, Form, FormGroup, Input, Button
 } from 'react-bootstrap';
-import Header from "./Header.js"
+import Header from "./Header.js";
+import Sidebar from "./Sidebar.js";
+import Footer from "./Footer.js";
 
 class App extends Component {
   constructor(props){
@@ -12,11 +14,14 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Grid>
-          <Row>
+        <div className="clearfix"> </div>
+        <div className="page-container">
+          <Sidebar />
+          <div className="page-content-wrapper">
             {this.props.children}
-          </Row>
-        </Grid>
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }
