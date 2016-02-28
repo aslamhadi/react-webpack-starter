@@ -18,7 +18,9 @@ class App extends Component {
         <div className="page-container">
           <Sidebar />
           <div className="page-content-wrapper">
-            {this.props.children}
+            <div className="page-content">
+              {this.props.children}
+            </div>
           </div>
         </div>
         <Footer />
