@@ -8,7 +8,7 @@ class Header extends Component {
         <div className="page-header-inner ">
           <div className="page-logo">
             <a href="index.html">
-              <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" className="logo-default" />
+              <img src="../assets/img/logo-light.png" alt="logo" className="logo-default" />
             </a>
             <div className="menu-toggler sidebar-toggler">
             </div>
@@ -173,7 +173,7 @@ class Header extends Component {
                         <li>
                           <a href="#">
                             <span className="photo">
-                              <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
+                              <img src="../assets/img/avatar2.jpg" className="img-circle" alt="" /> </span>
                             <span className="subject">
                               <span className="from"> Lisa Wong </span>
                               <span className="time">Just Now </span>
@@ -184,7 +184,7 @@ class Header extends Component {
                         <li>
                           <a href="#">
                             <span className="photo">
-                                <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
+                                <img src="../assets/img/avatar3.jpg" className="img-circle" alt="" /> </span>
                             <span className="subject">
                                 <span className="from"> Richard Doe </span>
                                 <span className="time">16 mins </span>
@@ -195,7 +195,7 @@ class Header extends Component {
                         <li>
                           <a href="#">
                             <span className="photo">
-                                <img src="../assets/layouts/layout3/img/avatar1.jpg" className="img-circle" alt="" /> </span>
+                                <img src="../assets/img/avatar1.jpg" className="img-circle" alt="" /> </span>
                             <span className="subject">
                                 <span className="from"> Bob Nilson </span>
                                 <span className="time">2 hrs </span>
@@ -206,7 +206,7 @@ class Header extends Component {
                         <li>
                             <a href="#">
                                 <span className="photo">
-                                    <img src="../assets/layouts/layout3/img/avatar2.jpg" className="img-circle" alt="" /> </span>
+                                    <img src="../assets/img/avatar2.jpg" className="img-circle" alt="" /> </span>
                                 <span className="subject">
                                     <span className="from"> Lisa Wong </span>
                                     <span className="time">40 mins </span>
@@ -217,7 +217,7 @@ class Header extends Component {
                         <li>
                             <a href="#">
                                 <span className="photo">
-                                    <img src="../assets/layouts/layout3/img/avatar3.jpg" className="img-circle" alt="" /> </span>
+                                    <img src="../assets/img/avatar3.jpg" className="img-circle" alt="" /> </span>
                                 <span className="subject">
                                     <span className="from"> Richard Doe </span>
                                     <span className="time">46 mins </span>
@@ -289,7 +289,7 @@ class Header extends Component {
                             <li className="dropdown dropdown-user dropdown-dark">
                                 <a href="javascript:;" className="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                                     <span className="username username-hide-on-mobile"> Nick </span>
-                                    <img alt="" className="img-circle" src="../assets/layouts/layout4/img/avatar9.jpg" /> </a>
+                                    <img alt="" className="img-circle" src="../assets/img/avatar9.jpg" /> </a>
                                 <ul className="dropdown-menu dropdown-menu-default">
                                     <li>
                                         <a href="page_user_profile_1.html">
